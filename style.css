@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 7px; */
+    padding: 0 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21.03px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.logo{
+    width: 122px;
+    height: 122px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 42.06px;
+    color: #333333;
+}
+header nav ul li{
+    list-style: none;
+    /* font-size: 700; */
+}
+header nav ul li .home{
+    color: #2F80ED;
+}
+
+header nav ul li a {
+    color: #333333;
+    list-style: none;
+    text-decoration: none;
+}
+header button{
+    border: 1px solid #000000;
+    border-radius: 16px;
+    color: #0E1035;
+    background-color: #ffffff;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 21.03px;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 70vh;
+}
+#home .pic img{
+    height: 850px;
+    margin-top: -234px;
+}
+#home .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+#home .info h1{
+    color: #2F80ED;
+    font-size: 78px;
+}
+#home .info h1 span{
+    color: #0E1035;
+}
+#home .info p{
+    color: #676767;
+    font-weight: 500;
+    font-size: 24px;
+    width: 642px;
+}
+.text-navy{
+    color: #0E1035;
+}
+#home .info button{
+    background-color: #0E1035;
+    margin-top: 20px;
+    color: #ffffff;
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#home .pic{
+    border-radius: 30px;
+    overflow: visible;
+}
+
+#service{
+    background-color: #0E1035;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 5%;
+    /* height: 100vh; */
+}
+#service .serviceul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#service ul img{
+    height: 50px;
+}
+#service .royal{
+    color: #2F80ED;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25.24px;
+}
+#service p span{
+    color: #ffffff;
+    font-weight: 500;
+}
+.serviceSafety{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    width: 750px;
+}
+.serviceSafety .left-div img{
+    width: 608px;
+    /* height: 573px; */
+}
+.serviceSafety .right-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+    width: 734px;
+    height: 492px;
+}
+.serviceSafety .right-div p{
+    color: #BDBBBB;
+    font-weight: 500;
+    font-size: 24px;
+    /* padding-right: 30px; */
+    width: 642px;
+}
+.serviceSafety .right-div h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.serviceSafety .right-div h1 span{
+    color: #2F80ED;
+}
+.serviceSafety .right-div nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 200px;
+    width: 734px;
+}
+.serviceSafety .right-div nav ul li{
+    width: 366px;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;      
+}
+#safety{
+    margin: 5%;
+}
+#safety .left-div p{
+    color:#676767;
+    
+}
+#fleet{
+    margin: 5% 0 5% 5%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+#fleet h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+}
+#fleet p{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #676767;
+    font-weight: 500;
+    font-size: 24px;
+    width: 722px;
+    margin: 0 auto;
+}
+#fleet .planes{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+#fleet .planes .one{
+    background-color: #ffffff;
+    border-radius: 50px;
+    justify-content: center;
+    box-shadow: 0 4px 5px 0 #747474;
+    width: 690px;
+    height: 593px;
+}
+#fleet .planes div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    height: 439px;
+    width: 688.12px;
+}
+#fleet .planes div div .plane1{
+    width: 530.19px;
+    height: 312px;
+}
+#fleet .planes div div .plane2{
+    width: 613.33px;
+    height: 207px;
+}
+#fleet .planes div div .plane3{
+    width: 589px;
+    height: 161px;
+}
+#fleet .planes div h3{
+    background-color: snow;
+    font-weight: 600;
+    font-size: 36px;
+    color: #0E1035;
+    text-align: center;
+    margin: 50px 0;
+}
+#testimonies{
+    background: url(images/bg2.png) right top no-repeat;
+    background-size: 646px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5% 5%;
+    padding-top: 50px;
+    height: 1104px;
+}
+#testimonies h1{
+    width: 648px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #232323;
+}
+#testimonies .comments{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 70px;  
+}
+#testimonies .comments .comment{
+    width: 500px;
+    border-radius: 30px;
+    padding: 32px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    box-shadow: 30px 10px 50px #989595;
+    background-color: #ffffff;
+}
+#testimonies .comments .comment .feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+#testimonies .comments .comment .feedback-2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#testimonies .comments .comment .feedback h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    
+    color: #0E1035;
+}
+#testimonies .comments .comment .feedback-2 .h3-2{
+    color: #9C9C9C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+#testimonies .comments .comment .head{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+#testimonies .comments .comment .head .img{
+    width: 100px;
+    height: 100px;
+}
+#testimonies .comments .comment .head .img img{
+    width: 100px;
+    height: 100px;
+}
+#testimonies .comments .comment .head .info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+}
+#testimonies .comments .comment .head .info h3{
+    font-weight: 700;
+    font-size: 28px;
+    color: #232323;
+}
+#testimonies .comments .comment .head .info p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #9C9C9C;
+}
+#testimonies .comments .comment .rating{
+    width: 164px;
+    height: 28px;
+}
+#contact{
+    background-color:  #0E1035;
+    background-image: url(images/Group29.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 84.12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin: -350px 5% 0 5%;
+    height: 437px;
+    padding: 0 5%;
+}
+#contact h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 46.26px;
+    color: #ffffff;
+    width: 336px;
+}
+#contact button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E1035;
+    border: none;
+    border-radius: 31.54px;
+    outline: none;
+    padding: 32px 68px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    padding-left: 3%;
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+}
+footer .logo{
+    width: 173px;
+    height: 173px;
+}
+footer .company, footer .service, footer .office{
+    display: flex;
+    flex-direction: column;
+    gap: 33.65px;
+}
+footer div h3{
+    color: #0E1035;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+footer div ul li, footer div li a{
+    color: #0E1035;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16.82px;
+}
+.office h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 21.03px;
+}
+.office ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16.82px;
+}
