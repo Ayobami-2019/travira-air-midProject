@@ -18,6 +18,7 @@ header{
     font-size: 21.03px;
     font-weight: 700;
     margin-top: 5px;
+    z-index: -1;
 }
 .logo{
     width: 122px;
@@ -54,17 +55,22 @@ header button{
     font-weight: 700;
     font-size: 21.03px;
 }
+main{
+    width: 100%;
+    overflow: hidden;
+    margin-top: -234px;
+}
 #home{
     display: flex;
     flex-direction: row;
     padding-left: 5%;
     justify-content: space-between;
     margin-top: 100px;
-    height: 70vh;
+    /* height: 70vh; */
 }
 #home .pic img{
     height: 850px;
-    margin-top: -234px;
+    /* overflow: visible; */
 }
 #home .info{
     display: flex;
@@ -73,6 +79,7 @@ header button{
     width: 50%;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    margin-top: 200px;
 }
 #home .info h1{
     color: #2F80ED;
@@ -103,7 +110,6 @@ header button{
 }
 #home .pic{
     border-radius: 30px;
-    overflow: visible;
 }
 
 #service{
@@ -166,12 +172,23 @@ header button{
 .serviceSafety .right-div h1 span{
     color: #2F80ED;
 }
+.serviceSafety .right-div .right-div-1{
+    height: 300px;
+    flex-wrap: wrap;
+}
+.serviceSafety .right-div nav{
+    height: 450px;
+    flex-wrap: wrap;
+}
 .serviceSafety .right-div nav ul{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 30px;
-    height: 200px;
-    width: 734px;
+    height: 100%;
+    /* justify-content: space-between; */
+    
+    /* width: 734px; */
 }
 .serviceSafety .right-div nav ul li{
     width: 366px;
@@ -187,12 +204,12 @@ header button{
     
 }
 #fleet{
-    margin: 5% 0 5% 5%;
+    margin: 5% 0 0 5%;
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 #fleet h1{
     text-align: center;
@@ -213,24 +230,48 @@ header button{
     display: flex;
     flex-direction: row;
     gap: 64px;
+    height: 550px;
 }
 #fleet .planes .one{
     background-color: #ffffff;
     border-radius: 50px;
     justify-content: center;
-    box-shadow: 0 4px 5px 0 #747474;
-    width: 690px;
-    height: 593px;
+    box-shadow: 0 4px 50px 0 #747474;
+    width: 644.12px;
+    height: 539px;
+    text-align: center;
+    padding-bottom: 170px;
 }
-#fleet .planes div div{
+#fleet .planes .one .one-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 50px;
+    height: 439px;
+    width: 644.12px;
+}
+#fleet .planes .third-one{
+    width: 100px;
+    border-bottom-right-radius: 0;
+}
+#fleet .planes .one .third-pic{
+    height: 439px;
+    width: 100px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+/* #fleet .planes div div{
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
     height: 439px;
-    width: 688.12px;
-}
+    width: 650px;
+} */
 #fleet .planes div div .plane1{
     width: 530.19px;
     height: 312px;
@@ -248,15 +289,14 @@ header button{
     font-weight: 600;
     font-size: 36px;
     color: #0E1035;
-    text-align: center;
-    margin: 50px 0;
+    margin: 30px 50px;
 }
 #testimonies{
     background: url(images/bg2.png) right top no-repeat;
     background-size: 646px;
     display: flex;
     flex-direction: column;
-    margin: 0 0 5% 5%;
+    margin: 5% 0 5% 5%;
     padding-top: 50px;
     height: 1104px;
 }
