@@ -209,7 +209,6 @@ main{
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     width: 100%;
-    overflow: hidden;
 }
 #fleet h1{
     text-align: center;
